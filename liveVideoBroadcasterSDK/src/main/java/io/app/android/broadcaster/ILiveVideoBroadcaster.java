@@ -13,7 +13,7 @@ public interface ILiveVideoBroadcaster {
      * Initializes video broadcaster
      * @param activity
      * the activity which is using this service
-     * @param mGLView
+     * @param gLView
      * the GLSurfaceView which is used to render camera view
      */
     void init(Activity activity, GLSurfaceView gLView);

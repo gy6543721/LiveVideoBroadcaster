@@ -1,8 +1,5 @@
 package io.app.android.broadcaster.network;
 
-/**
- * Created by faraklit on 03.03.2016.
- */
 public interface IMediaMuxer {
 
     int SEND_AUDIO = 0;

@@ -11,11 +11,7 @@ import net.butterflytv.rtmp_client.RTMPMuxer;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- * Created by faraklit on 09.02.2016.
- */
 public class RTMPStreamer extends Handler implements IMediaMuxer  {
-
 
     private static final boolean DEBUG = false;
     private static final String TAG = RTMPStreamer.class.getSimpleName();

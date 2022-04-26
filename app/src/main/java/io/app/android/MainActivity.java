@@ -11,7 +11,7 @@ import io.app.android.liveVideoPlayer.LiveVideoPlayerActivity;
 public class MainActivity extends AppCompatActivity {
 
     /**
-     * PLEASE WRITE RTMP BASE URL of the your RTMP SERVER.
+     * Input RTMP BASE URL of the RTMP SERVER.
      */
     public static final String RTMP_BASE_URL = "rtmp://10.10.31.87/LiveApp/";
 
