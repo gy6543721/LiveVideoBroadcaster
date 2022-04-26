@@ -102,16 +102,16 @@
             android:hint="@string/stream_name"
             android:textAppearance="?android:textAppearanceMedium"
             />
+
         <Button
             android:id="@+id/toggle_broadcasting"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/Base.Widget.AppCompat.Button.Colored"
-            android:textColor="@android:color/white"
-            android:text="@string/start_broadcasting"
-            android:onClick="toggleBroadcasting"
             android:layout_gravity="center_horizontal"
+            android:onClick="toggleBroadcasting"
+            android:text="@string/start_broadcasting"
             android:textAppearance="?android:textAppearanceMedium"
-            />
+            android:textColor="@android:color/white" />
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

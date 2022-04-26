@@ -59,4 +59,7 @@
 
     <string name="sample_list_load_error">One or more sample lists failed to load</string>
     <string name="stream_not_started">Failed to start. Please check server url and security credentials.</string>
+
+    <string name="broadcaster_button_text">LIVE VIDEO BROADCASTER</string>
+    <string name="player_button_text">LIVE VIDEO PLAYER</string>
 </resources>

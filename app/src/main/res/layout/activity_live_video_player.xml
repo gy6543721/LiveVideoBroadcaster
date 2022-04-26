@@ -77,15 +77,14 @@
 
     <Button
         android:id="@+id/play_live_video"
-        style="@style/Base.Widget.AppCompat.Button.Colored"
+        style="@android:style/Widget.DeviceDefault.Light.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:onClick="play"
         android:text="@string/exo_controls_play_description"
-        android:textColor="@android:color/white"
         android:textAppearance="?android:textAppearanceMedium"
-    />
+        android:textColor="@android:color/white" />
   </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
