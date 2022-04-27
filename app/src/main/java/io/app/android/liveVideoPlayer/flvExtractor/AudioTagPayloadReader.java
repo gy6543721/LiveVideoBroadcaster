@@ -17,6 +17,7 @@ import java.util.Collections;
  */
 /* package */ final class AudioTagPayloadReader extends TagPayloadReader {
 
+  private static final int AUDIO_FORMAT_MP3 = 2;
   private static final int AUDIO_FORMAT_ALAW = 7;
   private static final int AUDIO_FORMAT_ULAW = 8;
   private static final int AUDIO_FORMAT_AAC = 10;
