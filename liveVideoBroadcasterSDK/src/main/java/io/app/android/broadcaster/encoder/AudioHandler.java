@@ -7,9 +7,6 @@ import android.util.Log;
 
 import io.app.android.broadcaster.network.IMediaMuxer;
 
-/**
- * Created by mekya on 28/03/2017.
- */
 public class AudioHandler extends Handler {
 
     public static final int RECORD_AUDIO = 0;

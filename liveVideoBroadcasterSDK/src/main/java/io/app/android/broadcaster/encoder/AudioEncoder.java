@@ -12,9 +12,6 @@ import java.util.Map;
 
 import io.app.android.broadcaster.network.IMediaMuxer;
 
-/**
- * Created by faraklit on 03.02.2016.
- */
 public class AudioEncoder extends Thread {
 
     final int TIMEOUT_USEC = 10000;

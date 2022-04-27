@@ -1,9 +1,5 @@
 package io.app.android.broadcaster.encoder;
 
-/**
- * Created by faraklit on 17.02.2016.
- */
-
 import android.graphics.SurfaceTexture;
 import android.opengl.EGL14;
 import android.opengl.GLES20;

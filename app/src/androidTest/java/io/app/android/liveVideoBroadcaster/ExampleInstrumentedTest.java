@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("io.antmedia.android.livevideopublisher", appContext.getPackageName());
+        assertEquals("io.app.android.livevideopublisher", appContext.getPackageName());
     }
 }
