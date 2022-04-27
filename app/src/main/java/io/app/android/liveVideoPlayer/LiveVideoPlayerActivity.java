@@ -62,7 +62,7 @@ import io.app.android.liveVideoBroadcaster.R;
 import static io.app.android.MainActivity.RTMP_BASE_URL;
 
 /**
- * An activity that plays media using {@link SimpleExoPlayer}.
+ * Plays media using {@link SimpleExoPlayer}.
  */
 public class LiveVideoPlayerActivity extends AppCompatActivity implements OnClickListener, ExoPlayer.EventListener,
         PlaybackControlView.VisibilityListener {

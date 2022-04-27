@@ -7,10 +7,6 @@ import com.google.android.exoplayer2.extractor.ExtractorsFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mekya on 30/03/2017.
- */
-
 public class DefaultExtractorsFactoryForFLV implements ExtractorsFactory {
 
     // Lazily initialized default extractor classes in priority order.
